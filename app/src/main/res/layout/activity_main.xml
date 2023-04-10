@@ -28,28 +28,32 @@
             android:layout_height="match_parent">
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/rbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="Red"
+                android:onClick="rbtnclick"/>
 
             <RadioButton
-                android:id="@+id/radioButton2"
+                android:id="@+id/bbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="Blue"
+                android:onClick="bbtnclick"/>
 
             <RadioButton
-                android:id="@+id/radioButton3"
+                android:id="@+id/gbtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="Green"
+                android:onClick="gbtnclick"/>
 
             <RadioButton
-                android:id="@+id/radioButton4"
+                android:id="@+id/ybtn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RadioButton" />
+                android:text="Yellow"
+                android:onClick="ybtnclick"/>
         </RadioGroup>
 
         <Space
@@ -74,5 +78,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change"
+        android:onClick="go"/>
 
 </LinearLayout>
